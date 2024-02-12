@@ -1,0 +1,30 @@
+#slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  #slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 15px; /* Espacio entre las imágenes */
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  .video-container {
+    max-width: 600px; /* Define el ancho máximo del video */
+    margin: 0 auto; /* Centra el contenedor del video horizontalmente */
+  }
+  
+  video {
+    width: 100%; /* Hace que el video ocupe todo el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    display: block; /* Elimina el espacio adicional debajo del video */
+  }
